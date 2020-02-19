@@ -1,0 +1,77 @@
+html, body {
+    font-family: "Fira Sans", sans-serif;
+    background: linear-gradient(180deg, #e82c6f, #e82c6f 10%, #cb1657);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #e82c6f;
+}
+
+h2 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.card-centered {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.coming-soon-badge {
+    position: absolute;
+    color: rgb(155, 0, 0);
+    font-weight: bold;
+    border: 2px dashed rgb(155, 0, 0);
+    border-radius: 5px;
+    font-size: 11px;
+    background-color: rgba(255,255,255);
+    padding: 2px 5px;
+    transform: rotate(-20deg);
+    text-align: center;
+    width: 75px;
+    left: 2%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.social-link-container {
+    font-size: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-icon i {
+    height: 100%;
+}
